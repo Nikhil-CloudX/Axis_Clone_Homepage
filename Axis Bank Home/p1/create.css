@@ -1,0 +1,100 @@
+/* create-style.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: rgb(138, 0, 64);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    cursor: pointer;
+  }
+  
+ 
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .create {
+    text-align: center;
+  }
+  
+  .create .title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .create form {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .create .column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .create label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .create input[type="text"],
+  .create input[type="email"],
+  .create input[type="tel"],
+  .create input[type="password"],
+  .create input[type="number"],
+  .create input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .create .button {
+    text-align: center;
+    margin-top: 20px;
+    height: 25px ;
+    background-color: rgb(138, 0, 64);
+    
+  }
+  
+  .create .login {
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+  
+  .create .login a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .create .login a:hover {
+    text-decoration: underline;
+  }
+  
